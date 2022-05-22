@@ -28,7 +28,7 @@ resource "aws_instance" "app_server" {
 
   user_data = "${file("init.sh")}"
   tags = {
-    Name
+    Name = 'Yogesh'
   }
 }
 
